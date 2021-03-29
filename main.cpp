@@ -684,14 +684,7 @@ int main() {
     }
     
     tripsCount(A, N, B, X);
-    
-    string c = "aBE";
-
-    c = toupper(c);
-
-    cout << c << endl;
-    
-    
+   
     executeStmt(A, N, B, X);
     
     delete[] A;
