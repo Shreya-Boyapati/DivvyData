@@ -596,8 +596,7 @@ int main() {
     
     // station file
     string station_filename;
-    cout << "Please enter name of stations file> " << endl;
-    cin >> station_filename;
+    station_filename = "stations.txt";
     
     ifstream  infile;
     infile.open(station_filename);
